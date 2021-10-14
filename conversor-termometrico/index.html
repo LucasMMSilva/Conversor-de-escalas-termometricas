@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversão de Escala Termométrica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="header">Conversão de Escala Termométrica</div>
+        <div class="conteudo">
+            <p>
+                <select id="select1">
+                    <option value="none">Selecione</option>
+                    <option value="c">Escala Celsius (°C)</option>
+                    <option value="k">Escala Kelvin (K)</option>
+                    <option value="f">Escala Fahrenheit (°F)</option>
+                </select>
+                &#8649
+                <select id="select2">
+                    <option value="none">Selecione</option>
+                    <option value="c">Escala Celsius (°C)</option>
+                    <option value="k">Escala Kelvin (K)</option>
+                    <option value="f">Escala Fahrenheit (°F)</option>
+                </select>
+            </p>
+            <p>
+                <input class="number" type="number" name="num" id="num">
+                <input class="number" type="text" name="res" id="res" readonly=“true”>
+            </p>
+            <p><input class="button" type="button" value="Converter" onclick="converter()"></p>
+        </div>
+        <div class="footer">by: Lucas Manoel</div>
+    </section>
+    <script src="conversor.js"></script>
+</body>
+</html>
